@@ -105,6 +105,7 @@ int main() {
 
     do {
         cout << "\n=== Clinic Management System ===\n";
+        
         cout << "1- Add Patient\n";
         cout << "2- Show Patients\n";
         cout << "3- Delete Patient\n";
