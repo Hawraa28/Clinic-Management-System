@@ -23,10 +23,12 @@ void addPatient() {
     cin >> p.name;
     cout << "Enter age: ";
     cin >> p.age;
-    
+    if(p.age <= 0){
+    cout << "Invalid age!\n";
+    return;
+}
     cout << "Enter phone number: ";
     cin >> p.phone;
-
     patients.push_back(p);
     cout << "Patient added successfully.\n";
 }
