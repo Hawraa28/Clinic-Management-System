@@ -23,6 +23,7 @@ void addPatient() {
     cin >> p.name;
     cout << "Enter age: ";
     cin >> p.age;
+    
     cout << "Enter phone number: ";
     cin >> p.phone;
 
