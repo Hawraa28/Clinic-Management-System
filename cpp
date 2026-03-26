@@ -104,7 +104,7 @@ int main() {
     int choice;
 
     do {
-        
+      cout << "Welcome to Clinic Management System!\n";  
         cout << "\n=== Clinic Management System ===\n";
         cout << "Total appointments: " << appointments.size() << "\n";
         cout << "1- Add Patient\n";
