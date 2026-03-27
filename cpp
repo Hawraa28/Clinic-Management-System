@@ -27,7 +27,28 @@ void addPatient() {
     cout << "Invalid age!\n";
     return;
 }
-    
+ #include <cctype>
+
+cout << "Enter phone number: ";
+cin >> p.phone;
+
+bool valid = true;
+
+if(p.phone.length() != 11){
+    valid = false;
+} else {
+    for(char c : p.phone){
+        if(!isdigit(c)){
+            valid = false;
+            break;
+        }
+    }
+}
+
+if(!valid){
+    cout << "Invalid phone number! It must contain exactly 11 digits.\n";
+    return;
+}   
     
     patients.push_back(p);
     cout << "Patient added successfully.\n";
