@@ -77,7 +77,7 @@ void deletePatient() {
 
     if (index >= 0 && index < patients.size()) {
         patients.erase(patients.begin() + index);
-
+   cout << "Patient deleted successfully.\n";
         
     } else {
         cout << "Invalid number.\n";
