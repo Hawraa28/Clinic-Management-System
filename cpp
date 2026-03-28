@@ -51,7 +51,7 @@ if(!valid){
 }   
     
     patients.push_back(p);
-    cout << "Patient added successfully.\n";
+    cout << "Patient " << p.name << " added successfully.\n";
 }
 
 // Show Patients
